@@ -7,13 +7,13 @@ body {
 img {
   display: block;
   max-width: 100%;
-  max-height:fit-content;
 }
 
 header {
   background: url(../img/legumes-fond.webp);
   padding: 30px;
   font-family: 'Quattrocento';
+  margin-bottom: 0px;
 }
 
 .box-title {
@@ -38,6 +38,7 @@ h1 {
   margin-top: 2px;
 }
 
+
 .nav-container {
   display: flex;
   flex-direction: column;
@@ -55,10 +56,36 @@ h1 {
   text-decoration: none;
 }
 
-.nav-light {
+.nav-white {
   color: #7db96f;
   background: #ffffff;
 }
+
+main {
+  margin-top: 0px;
+}
+
+.section {
+  text-align: center;
+  margin-top: none;
+  padding: 60px;
+
+}
+
+.section-white {
+  background: #ffffff;
+}
+
+h2 {
+  font-family: 'maven pro';
+  font-size: 26px;
+}
+
+p {
+  font-family: quattrocento;
+  font-size: 16px;
+}
+
 
 
 
