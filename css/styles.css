@@ -83,10 +83,12 @@ p {
   font-size: 16px;
 }
 
-.fruit {
+.suite-fruits {
+  max-width: 270px;
   display: flex;
-  max-width: 30px;
-  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 50px;
+  margin-bottom: 60px;
 }
 
 .section-green {
@@ -161,6 +163,23 @@ h3 {
 
 .h2-footer {
   color: #7db96f;
+  margin-top: 30px;
+}
+
+.p-footer {
+  font-size: 12px;
+  font-family: 'maven pro';
+  font-weight: lighter;
+  text-align: center;
+  color: #7db96f;
+  margin-top: 50px;
+}
+
+.suite-fruits-2 {
+  max-width: 230px;
+  display: flex;
+  justify-content: center;
+  margin: 40px;
 }
 
 
