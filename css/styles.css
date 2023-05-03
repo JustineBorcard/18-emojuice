@@ -10,12 +10,13 @@ img {
 }
 
 header {
-  background: url(../img/legumes-fond.webp);
+  background: url(../img/legumes-fond.svg);
   padding: 30px;
   font-family: 'Quattrocento';
   margin-bottom: 0px;
+  border-top: #7db96f;
+  border-width: 50px;
 }
-
 
 h1 { 
   padding: 5px;
@@ -23,21 +24,19 @@ h1 {
   margin-bottom: 0px;
 }
 
-
 .box-title {
   font-family: 'sriracha';
-  color: #66cc66;
+  color: #7db96f;
   background: #ffffff;
   padding: 10px 55px;
+  margin-bottom: 25px;
 }
-
 
 .slogan {
   font-family: 'Quattrocento';
   font-size: 20px;
   text-align: center;
 }
-
 
 .nav-container {
   display: flex;
@@ -48,10 +47,10 @@ h1 {
 }
 
 .nav {
-  background: #66cc66;
+  background: #7db96f;
   color: #ffffff;
   margin: 10px;
-  Padding: 15px 20px;
+  Padding: 10px 20px;
   border-radius: 15px;
   text-decoration: none;
 }
@@ -92,8 +91,14 @@ p {
 }
 
 .section-green {
-  background:#66cc66;
+  background:#7db96f;
   color: #ffffff;
+}
+
+.h2-green {
+  font-size: 26px;
+  font-family: 'maven pro';
+  margin-top: 2px;
 }
 
 .carte{
@@ -102,18 +107,29 @@ p {
   border-radius: 30px;
   padding: 30px;
   text-align: left;
+  margin-top: 30px;
 }
 
-h2 {
-  font-size: 26px;
-  font-family: 'maven pro';
-  margin-bottom: 40px;
+h3 {
+  font-family: 'Sriracha';
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
 
 .p-carte {
   font-size: 16px;
   font-family: 'Quattrocento';
+  margin-top: 0px;
+  color:#000000;
+}
+
+.ensavoirplus {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'maven pro';
+  margin-top: 50px;
+  font-weight: bold;
 }
 
 .fruit-carte {
