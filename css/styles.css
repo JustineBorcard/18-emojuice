@@ -7,6 +7,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  max-height:fit-content;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 
 .box-title {
   font-family: 'sriracha';
-  color: #7db96f;
+  color: #66cc66;
   background: #ffffff;
   padding: 10px 55px 10px 55px;
   margin-bottom: 30px;
@@ -36,4 +37,28 @@ h1 {
   text-align: center;
   margin-top: 2px;
 }
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'maven pro';
+  font-size: 20px;
+}
+
+.nav {
+  background: #66cc66;
+  color: #ffffff;
+  margin: 10px;
+  Padding: 15px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.nav-light {
+  color: #7db96f;
+  background: #ffffff;
+}
+
+
 
